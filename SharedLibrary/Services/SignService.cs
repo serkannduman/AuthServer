@@ -1,9 +1,9 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace AuthServer.Service.Services;
+namespace SharedLibrary.Services;
 
-internal static class SignService
+public static class SignService
 {
     public static SecurityKey GetSymmetricSecurityKey(string securityKey)
     {
